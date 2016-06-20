@@ -1,0 +1,6 @@
+version: "2"
+
+services:
+  php:
+    build: .
+    working_dir: /data/app

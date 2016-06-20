@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  php:
+    command: sleep 9999999
+    volumes:
+      - "./:/data/app"
